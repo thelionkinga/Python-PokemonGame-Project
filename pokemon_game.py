@@ -60,4 +60,6 @@ def multiple_rounds():
     print(f'Computer - {computer_wins} vs Player - {player_wins}')
 
 
-multiple_rounds()
+if __name__ == "__main__":
+    multiple_rounds()
+
